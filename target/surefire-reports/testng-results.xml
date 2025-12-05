@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-05T16:41:52 IST" name="Suite" finished-at="2025-12-05T16:42:13 IST" duration-ms="20179">
+  <suite started-at="2025-12-05T16:53:34 IST" name="Suite" finished-at="2025-12-05T16:54:28 IST" duration-ms="54215">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5939a379]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-12-05T16:41:52 IST" name="Test" finished-at="2025-12-05T16:42:13 IST" duration-ms="20149">
+    <test started-at="2025-12-05T16:53:34 IST" name="Test" finished-at="2025-12-05T16:54:28 IST" duration-ms="54185">
       <class name="testrunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:41:52 IST" name="setUpClass" finished-at="2025-12-05T16:41:53 IST" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@5939a379]" started-at="2025-12-05T16:53:34 IST" name="setUpClass" finished-at="2025-12-05T16:53:34 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:41:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:42:02 IST" duration-ms="8856" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5939a379]" started-at="2025-12-05T16:53:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:53:48 IST" duration-ms="13817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:42:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:42:13 IST" duration-ms="10786" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5939a379]" started-at="2025-12-05T16:53:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:53:56 IST" duration-ms="8476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,19 +46,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:42:13 IST" name="tearDownClass" finished-at="2025-12-05T16:42:13 IST" duration-ms="33" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5939a379]" started-at="2025-12-05T16:53:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:54:28 IST" duration-ms="31383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search using valid name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user should be able to search employee based on their info]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@5939a379]" started-at="2025-12-05T16:54:28 IST" name="tearDownClass" finished-at="2025-12-05T16:54:28 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testrunner -->
     </test> <!-- Test -->
-    <test started-at="2025-12-05T16:42:13 IST" name="Test2" finished-at="2025-12-05T16:42:13 IST" duration-ms="0">
+    <test started-at="2025-12-05T16:54:28 IST" name="Test2" finished-at="2025-12-05T16:54:28 IST" duration-ms="0">
       <class name="utilities.reportgenerator">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportgenerator@6b8ca3c8]" started-at="2025-12-05T16:41:52 IST" name="beforeSuite" finished-at="2025-12-05T16:41:52 IST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportgenerator@346d61be]" started-at="2025-12-05T16:53:34 IST" name="beforeSuite" finished-at="2025-12-05T16:53:34 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportgenerator@6b8ca3c8]" started-at="2025-12-05T16:42:13 IST" name="afterSuite" finished-at="2025-12-05T16:42:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportgenerator@346d61be]" started-at="2025-12-05T16:54:28 IST" name="afterSuite" finished-at="2025-12-05T16:54:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

@@ -18,9 +18,12 @@ public class recruitment {
 		log.perfromlogin();
 	}
 	public void clickRecruitment() {
-		driver.findElement(By.cssSelector(".active > span:nth-child(2)")).click();
+		driver.findElement(By.linkText("Recruitment")).click();
 	}
 	public void sendCandidateKeys(String name) {
 		driver.findElement(By.cssSelector(".oxd-autocomplete-text-input > input:nth-child(2)")).sendKeys(name);
+	}
+	public void clickSearch() {
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 }

@@ -18,6 +18,7 @@ public class tc3_search_employee {
 	public void he_enters_the_candidate_name_as(String name) {
 		rec.sendCandidateKeys(name);
 	    System.out.println("he enters candidate name as"+name);
+	    rec.clickSearch();
 	}
 
 	@Then("the system displays the result")
