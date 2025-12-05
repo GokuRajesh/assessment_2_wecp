@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T16:41:52 IST" name="Suite" finished-at="2025-12-05T16:42:13 IST" duration-ms="20179">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-05T16:41:52 IST" name="Test" finished-at="2025-12-05T16:42:13 IST" duration-ms="20149">
+      <class name="testrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:41:52 IST" name="setUpClass" finished-at="2025-12-05T16:41:53 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:41:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:42:02 IST" duration-ms="8856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:42:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T16:42:13 IST" duration-ms="10786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@4ef37659]" started-at="2025-12-05T16:42:13 IST" name="tearDownClass" finished-at="2025-12-05T16:42:13 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner -->
+    </test> <!-- Test -->
+    <test started-at="2025-12-05T16:42:13 IST" name="Test2" finished-at="2025-12-05T16:42:13 IST" duration-ms="0">
+      <class name="utilities.reportgenerator">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportgenerator@6b8ca3c8]" started-at="2025-12-05T16:41:52 IST" name="beforeSuite" finished-at="2025-12-05T16:41:52 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportgenerator@6b8ca3c8]" started-at="2025-12-05T16:42:13 IST" name="afterSuite" finished-at="2025-12-05T16:42:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- utilities.reportgenerator -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
